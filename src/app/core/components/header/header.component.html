@@ -1,0 +1,7 @@
+<ul>
+    <ng-container *ngFor="let item of menu">
+        <li *ngIf="item.active">
+            <a [routerLink]="['/', item.link]" routerLinkActive="active">{{ item.name }}</a>
+        </li>
+    </ng-container>
+</ul>

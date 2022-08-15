@@ -1,0 +1,19 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    li {
+        a {
+            padding: 0 20px;
+            line-height: 40px;
+            display: block;
+            text-decoration: none;
+            color: #000;
+            &:hover, &.active {
+                background-color: #eee;
+            }
+        }
+    }
+}
